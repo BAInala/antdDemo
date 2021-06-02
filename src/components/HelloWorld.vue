@@ -1,6 +1,14 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <a-row class="antdiv">
+      <a-col :span="12">
+        col-12
+      </a-col>
+      <a-col :span="12">
+        col-12
+      </a-col>
+    </a-row>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -41,6 +49,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.antdiv{
+  color: #42b983;
+  border: 1px solid #eee;
+  height: 40px;
+  line-height: 40px;
+}
 h3 {
   margin: 40px 0 0;
 }
